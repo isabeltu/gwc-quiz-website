@@ -1,0 +1,199 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Bitter", serif;
+  margin: 2em;
+  background-color: #e6f9ff;
+}
+
+.heading {
+  display: flex;
+  background-color: #b3ecff;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  margin-bottom: 0;
+}
+
+h1 {
+}
+
+h2 {
+  margin-top: 1em;
+  background-color: #b3ecff;
+  padding: 10px;
+}
+
+.question {
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.answer-choice img {
+  height: 13em;
+  width: 13em;
+  margin: 0em;
+  padding: 0em;
+  border: 0em;
+  align-self: center;
+}
+
+.yeetImg {
+  display: flex;
+}
+
+button {
+  background-color: white;
+}
+
+.answer-choice button {
+  width: 13.4em;
+  height: 18em;
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  flex-shrink: 2;
+}
+button {
+  border: 3px solid black;
+  outline: none;
+}
+
+.choicetext {
+  margin: 4px;
+  padding: 0em;
+  font-family: "Bitter", serif;
+}
+
+.question button:hover {
+  background-color: #e6e6e6;
+}
+
+.finished {
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.finished button:not(.chosen) {
+  opacity: 0.6;
+}
+
+.finished button {
+  width: 13.5em;
+  height: 18em;
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  padding: 0px;
+}
+
+.grow {
+  transition: all 0.1s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.03);
+}
+
+.finished button:hover {
+  background-color: white;
+}
+
+.finished img {
+  height: 13em;
+  width: 13em;
+  margin: 0em;
+  padding: 0em;
+  border: 0em;
+  align-self: center;
+}
+
+.finished .choicetext {
+  color: black;
+  margin: 3px;
+}
+
+.chosen {
+  background-color: #e6e6e6;
+  width: 13.4em;
+  height: 18em;
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  flex-shrink: 2;
+  border: 5px solid black;
+}
+
+.chosen img {
+  width: 13em;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.finished .chosen:hover {
+  background-color: #e6e6e6;
+}
+
+.results {
+  display: flex;
+  background-color: #b3ecff;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  background-color: #b3ecff;
+  margin: 0px;
+  padding: 20px;
+  border: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom button {
+  font-family: "Bitter", serif;
+  border-radius: 10px;
+  outline: none;
+}
+
+.bottom button:hover {
+  background-color: #e6e6e6;
+}
+
+.answer-choice button:disabled:hover {
+  transform: scale(1);
+}
